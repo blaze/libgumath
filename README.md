@@ -23,3 +23,11 @@ It is desired that corresponding libraries for each language that use this C-lib
 5) A specific modification of number 4 are reduction functions (reduceat, reduceby, reduce, etc.) built from appropriate kernels (i.e. 2-argument kernels). 
 
 6) Familiarity with the ufuncobject.c code from NumPy is essential to understand this library (and in particular how generalized ufuncs work at their core). 
+
+# Governance
+During its intitial phases, the goals and priorities of this project will be arbitrated and decided by Continuum Analytics and its Community Innovation policies.  In particular, the Technical Advocate (currently Travis Oliphant) will facilitate discussions and make decisions based on input from all interested parties (inside and outside of Continuum).  Respectful input will be welcomed by anyone, but the goals and priorities will be decided initially by a small core (Travis Oliphant, Stefan Krah, and Stan Seibert).  This core group can and will evolve over time based on contributions and input.  We are eager to understand how to improve the library according to the best available knowledge anyone has.  Contributions from anyone that are consistent with the goals and priorities of the project will be gladly received.  
+
+As the project gains other serious contributors, a steering council governance model will be adopted so that the project could become a NumFOCUS fiscally-sponsored project at some point.
+
+# Development philosophy
+Discussions should be in public using Github Issues, a mailing list, and public Gitter chat.  Private conversations will sometimes occur (especially during the initial phases to help get the project off the ground and produce something to discuss), but significant discussions should increasingly be in public as the project emerges.  Most discussions should actually be in code-reviews and in the evolution of code.
